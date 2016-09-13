@@ -26,6 +26,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:textSize="18sp"
+        android:id="@+id/title"
         android:text="周围连接："
         />
     <ListView
@@ -45,6 +46,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="连接日志"
+            android:id="@+id/btn_log"
             />
 
         <CheckBox
